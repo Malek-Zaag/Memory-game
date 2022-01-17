@@ -1,38 +1,17 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+.title{
+  font-family: 'Dongle', sans-serif;
+  font-weight: 700;
   text-align: center;
+  font-size: 4rem;
+}
+button{
+  font-weight: 700;
+  font-family: 'Dongle', sans-serif;
+  position: absolute;
+  left: 45%;
+  font-size: 3vw;
+  border-radius: 50%;
+  border: 1vw  thin solid grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
