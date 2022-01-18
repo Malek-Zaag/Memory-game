@@ -11,6 +11,8 @@
 ### 🏠 [Homepage](https://vegfruity.herokuapp.com/)
 
 ### ✨ [Demo](https://vegfruity.herokuapp.com/)
+![image](https://user-images.githubusercontent.com/90960811/149935767-9e2133e3-e0b4-4c6e-96e2-6d6525d2fc61.png)
+
 
 ## Install
 
