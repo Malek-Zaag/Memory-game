@@ -6,7 +6,7 @@ const Card = (props) => {
         props.handleChoice(props.card)
     }
     return (
-        <div key={props.id}>
+        <div className={props.flipped ? "flipped" : ""} key={props.id}>
             <img className="card-front" src={props.src} alt="front"></img>
             <img className="card-back" src={img} onClick={handleClick} alt="back"></img>
         </div>

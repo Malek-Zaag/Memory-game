@@ -4,6 +4,7 @@
   font-weight: 700;
   text-align: center;
   font-size: 5vw;
+  position: relative;
 }
 button{
   font-weight: 700;
@@ -14,6 +15,14 @@ button{
   border-radius: 50%;
   border: 1vw  thin solid grey;
 }
+.score{
+  font-family: 'Dongle', sans-serif;
+  font-weight: 700;
+  font-size: 5vw;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
 
 .card-grid{
   display: grid;
@@ -22,6 +31,7 @@ button{
   grid-gap: 1rem;
   grid-row: 4;
   gap: 1vw 1vw;
+  position: relative;
 }
 .turns{
   font-family: 'Dongle', sans-serif;
@@ -30,10 +40,24 @@ button{
 }
 .card-front{
   height: 15vh;
-  width: 12vw;
+  width: 15vw;
+  transform:rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
 }
-.card-back{
+.flipped .card-front{
+  transform: rotate(0deg);
+}
 
+.card-back{
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
   height: 15vh;
-  width: 12vw;
+  width: 15vw;
 }
+
+.flipped .card-back{
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
