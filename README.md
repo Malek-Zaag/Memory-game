@@ -36,7 +36,7 @@ npm run test
 
 👤 **Malek**
 
-* Twitter: [@zaag.malek](https://twitter.com/zaag.malek)
+* Twitter: [@zaag.malek](https://twitter.com/ZaagMalek)
 * Github: [@Malek-Zaag](https://github.com/Malek-Zaag)
 
 ## Show your support
